@@ -4,12 +4,15 @@
 def main():
     """"
     AI Game of NIMM
-
+    
+     Python program that reads in a number from the user and then displays the Hailstone sequence for that number.
+    
     Task:
-    Pick some positive integer and call it n.
-    If n is even, divide it by two.
-    If n is odd, multiply it by three and add one.
-    Continue this process until n is equal to one.
+    
+    Ask the user input for a  positive integer and call it number.
+    If number is even, divide it by two.
+    If number is odd, multiply it by three and add one.
+    Continue this process until number is equal to one.
     """
 
     # Take user input for the number
