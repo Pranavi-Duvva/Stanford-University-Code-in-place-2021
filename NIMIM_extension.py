@@ -3,7 +3,7 @@
 
 def main():
     """"
-    AI for Game of Nimm
+    AI Game of NIMM
 
     Task:
     Pick some positive integer and call it n.
@@ -12,12 +12,14 @@ def main():
     Continue this process until n is equal to one.
     """
 
-    # user input for the number
-    # validate number if it's negative
-    # check if number is even or odd
+    # Take user input for the number
+    # validate number if it's positive and greater than zero
+   
     number=get_number()
     counter=0
     while number!=1:
+        
+        # check if number is even or odd
         number=check_even_odd(number)
         counter +=1
     print("The process took",counter,"steps to reach 1")
@@ -41,9 +43,6 @@ def check_even_odd(number):
         print(str(number) + " is odd, so I make 3n+1:",new_number )
         number=new_number
         return number
-
-
-
 
 
 def get_number():
