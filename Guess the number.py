@@ -1,6 +1,9 @@
 import random
 
 def main():
+    """
+    This is a game wherein a computer randomly generates a secret number and the user has to guess the number.
+    """
     # Computer randomly generates a secret number between 1,99
     secret_number=int(random.randint(1,99))
     guess=int(input("Guess the number: "))
