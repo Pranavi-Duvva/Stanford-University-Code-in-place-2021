@@ -4,10 +4,7 @@ N_GAME=3
 def main():
     """
     Rock Paper Scissor Game
-    History:
-    This classic game dates back to the Han Dinesty, over 2200 years ago.
-    The First International Rock-Paper-Scissors Programming Competition
-    was held in 1999 and was won by a team called "Iocaine Powder"
+    
     Game:
     Each player chooses a move simultaneously from the choices:
     Rock Paper Scissors
